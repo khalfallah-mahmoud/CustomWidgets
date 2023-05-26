@@ -1,0 +1,49 @@
+{
+"eula": "",
+"vendor": "MKhalfallah",
+"license": "",
+"id": "com.sap.sac.sample.linearea.mj",
+"version": "0.0.1",
+"name": "Multi_Series",
+"newInstancePrefix": "Multi_Series",
+"description": "Multi_Series",
+"webcomponents": [
+	{
+		"kind": "main",
+		"tag": "com-sap-sample-linearea-mj",
+		"url": "https://3f25-41-227-202-168.eu.ngrok.io/static/CustomAmchart.js",
+		"integrity": "",
+		"ignoreIntegrity": true
+	}
+],
+"properties": {
+	"width": {
+		"type": "integer",
+		"default": 600
+	},
+	"height": {
+		"type": "integer",
+		"default": 420
+	}
+},
+"methods": {
+	"render": {
+		"description": "Render",
+		"parameters": [
+			{
+				"name":"resultSet",
+				"type":"any"
+			},
+			{
+				"name":"key",
+				"type":"any"
+			}
+		]
+	}
+},
+"events": {
+	"onClick": {
+		"description": "Called when the user clicks the Box."
+	}
+}
+}
